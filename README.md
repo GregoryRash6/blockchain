@@ -24,6 +24,9 @@
 17. Select "Wallet Info".
 18. Write down your "Private Key".
 
+![Before Balance](Resources/before_balance.png)
+#### The picture above shows your balance when you create your wallet.
+
 ### Step Two: Install Go Ethereum Tools
 
 #### How to Install Go Ethereum Tools:
@@ -73,6 +76,12 @@
 22. Type the following command, adjusting for your enode, and press "Enter":
 ```./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://<replace with node1 enode address>"```
 
+
+
+![After Balance](Resources/after_balance.png)
+#### The picture above shows your balance after running Puppeth.
+
+
 ### Step Five: Set Up Your Custom Node in MyCrypto
 
 #### How to Set Up Your Custom Node in MyCrypto
@@ -86,6 +95,10 @@
 8. Input your chain ID number as the "Chain ID".
 9. Input "https://127.0.0.1:8545/" as the "URL"
 10. Select "Save & Use Custom Node".
+
+
+![Custom Node](Resources/custom_node.png)
+#### The picture above shows inputs for setting up your custom node.
 
 ### Step Six: Send Transaction
 
@@ -102,6 +115,9 @@
 10. Select "Send".
 11. Write down "TX Hash".
 
+![Pending Transaction](Resources/transaction_pending.png)
+#### The picture above shows a pending transaction.
+
 ### Step Seven: Check TX Status
 
 #### How to Check TX Status
@@ -109,3 +125,7 @@
 2. Select "TX Status".
 3. Input your TX Hash.
 4. Select "Check TX Status".
+
+
+![Successful Transaction](Resources/transaction_success.png)
+#### The picture above shows a successful transaction.
